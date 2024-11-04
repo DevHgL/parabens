@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url('lirio.jpg'); /* Certifique-se de que o caminho da imagem está correto */
+    background-size: contain; /* Faz com que a imagem fique inteira dentro da página */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-attachment: fixed; /* Faz com que a imagem fique fixa e não se mova ao rolar */
+    background-color: #000; /* Adiciona uma cor de fundo preta para preencher áreas vazias */
+}
+
+
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semitransparente para melhor legibilidade */
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.parabens-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: fixed; /* Fixa o botão na posição */
+    bottom: 20px; /* Define a distância da parte inferior da tela */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Ajusta a posição para que o botão fique centralizado */
+}
+
+.parabens-button:hover {
+    background-color: #45a049; /* Cor de fundo ao passar o mouse */
+}
+
+
+.back-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #d32f2f;
+}
